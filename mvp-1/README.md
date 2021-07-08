@@ -19,7 +19,7 @@ The capability that needs to be demonstrated
                |       \--> SystemLog  port 3002   <Shared MongoDB>
                |
         Security service 
-        managed by gateway
+        managed by the API gateway
                |
                v
           JWT <Shared MySQL>
