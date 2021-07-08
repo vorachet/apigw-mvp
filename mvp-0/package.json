@@ -1,0 +1,27 @@
+{
+  "name": "mvp-0",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start-gw": "node gateway/gw.js",
+    "start-mcv1": "node mcv1.js",
+    "start-mcv2": "node mcv2.js",
+    "test": "jest --verbose --forceExit --watchAll --maxWorkers=1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
