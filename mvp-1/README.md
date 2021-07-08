@@ -151,7 +151,7 @@ Note that the test script will start API gateway server automatically during the
 Expected test result 
 ```
  PASS  gateway/tests/sample.test.js
-  MVP0 testset
+  MVP1 testset
     ✓ GW GET / (37 ms)
     ✓ GW POST /token with wrong user account (40 ms)
     ✓ GW POST /token with valid user account (10 ms)

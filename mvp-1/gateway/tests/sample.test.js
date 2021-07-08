@@ -1,7 +1,7 @@
 const request = require('supertest')
 const gw = require('../gw')
 
-describe('MVP0 testset', () => {
+describe('MVP1 testset', () => {
   it('GW GET /', async () => {
     const response = await request(gw)
       .get("/")
