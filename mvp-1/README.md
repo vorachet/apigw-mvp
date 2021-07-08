@@ -33,8 +33,8 @@ PROJECT_ROOT_FOLDER/mvp-1
     ├── README.md       (your are reading this file)
     ├── gateway         (api gateway server)
     ├── gateway-tools   (gateway tools )
-        ├── deleteAllAndBuilkCreateSampleInventories.js
-        ├── deleteAllAndBuilkCreateSampleUsers.js
+        ├── deleteAllAndBulkCreateSampleInventories.js
+        ├── deleteAllAndBulkCreateSampleUsers.js
         ├── viewInventories.js
         ├── viewSyslogs.js
         └── viewUsers.js
@@ -110,8 +110,8 @@ Run the two programs in ```gateway-tools``` folder
 ```
 $ cd mvp-1
 $ cd gateway-tools
-$ node deleteAllAndBuilkCreateSampleInventories.js
-$ node deleteAllAndBuilkCreateSampleUsers.js
+$ node deleteAllAndBulkCreateSampleInventories.js
+$ node deleteAllAndBulkCreateSampleUsers.js
 ```
 
 The expected result is to create sample users and inventories in MySQL database, which are needed by the automated test script
