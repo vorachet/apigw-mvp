@@ -60,7 +60,7 @@ PROJECT_ROOT_FOLDER/mvp-1
 
 # Testing
 
-## We need MongoDB & MySQL run locally, the project provides them using Docker
+## We need MongoDB & MySQL running locally, the project provides them using Docker
 
 Run the following command in a separated terminal at project root directory, at the same directory with docker-compose.yml. 
 __Docker and Docker compose are required.__
@@ -106,7 +106,7 @@ $ npm install
 
 #### Create sample database
 
-Run the two programs in ```gateway-tools``` folders 
+Run the two programs in ```gateway-tools``` folder 
 ```
 $ cd mvp-1
 $ cd gateway-tools
