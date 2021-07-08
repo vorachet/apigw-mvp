@@ -5,9 +5,9 @@ The capability that needs to be demonstrated
 
 - Added SQL(MySQL) and NoSQL(MongoDB) system into the development-environment architecture using Docker.
 
-- Implemented JWT authentication using username/password from database rather than hard coding, which is prototyped by MVP-0
+- Implemented JWT authentication using username/password from a database rather than hard coding, which is prototyped by MVP-0
 
-- Implemented more concrete microservices. This verion demonstrate a simplified Inventory and SystemLog microservices. Both run in a different runtime process and database backend.
+- Implemented more concrete microservices. This verion demonstrates a simplified Inventory and SystemLog microservices. Both run in a different runtime process and database backend.
 
 - Improved code for automatic proxy configuration 
 
@@ -183,7 +183,7 @@ or
 $ npm run start-gw
 ```
 
-# Simplfiied API Gateway Specification
+# Simplified API Gateway Specification
 
 The Demo API Gateway Specification will be offered the document generation service on http://localhost:3000/spec This web content is automatically generated from the declarative proxy configuration, where developers use the generated CURL scripts for testing and reuse them for other industrial relevance setting such as OpenAPI or further code generation services.
 
