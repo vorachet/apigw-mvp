@@ -2,7 +2,7 @@
 
 Vorachet Jaronsawas, <aot@script-conductive.com>
 
-This project provides a sequence of MVP for simplified API Gateway using NodeJS, MongoDB, and MySQL.  
+This project provides a sequence of MVP devlopment of a simplified API Gateway using NodeJS, MongoDB, and MySQL stack.  
 
 Thanks James Neilson for asking me to demonstrate the example of 2-days software engineering work to deliver the working example of API gateway.
 
